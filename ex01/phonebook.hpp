@@ -2,10 +2,9 @@
 #ifndef PHONEBOOK_HPP
 # define PHONEBOOK_HPP
 
-# include <iostream>
-# include <string>
+# include "phonebook_utils.hpp"
 
-class	phonebook
+class	Phonebook
 {
 	
 }
