@@ -6,7 +6,7 @@
 /*   By: vvaalant <vvaalant@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 19:00:07 by vvaalant          #+#    #+#             */
-/*   Updated: 2024/08/02 19:00:09 by vvaalant         ###   ########.fr       */
+/*   Updated: 2024/08/02 20:56:29 by vvaalant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,11 +94,11 @@ void        Phonebook::seach(void)
 
 void        Phonebook::print_contact(Contacts cont)
 {
-    std::cout << "Firstname:______" << cont.get_firstname() << std::endl;
-    std::cout << "Lastname:_______" << cont.get_lastname() << std::endl;
-    std::cout << "Nickname:_______" << cont.get_nickname() << std::endl;
-    std::cout << "Darkest secret:_" << cont.get_secret() << std::endl;
-    std::cout << "Phonenumber:____" << cont.get_number() << std::endl;
+    std::cout << "Firstname: " << cont.get_firstname() << std::endl;
+    std::cout << "Lastname: " << cont.get_lastname() << std::endl;
+    std::cout << "Nickname: " << cont.get_nickname() << std::endl;
+    std::cout << "Darkest secret: " << cont.get_secret() << std::endl;
+    std::cout << "Phonenumber: " << cont.get_number() << std::endl;
 }
 
 Contacts    Phonebook::get_contact(int i)
